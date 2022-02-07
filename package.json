@@ -1,0 +1,39 @@
+{
+  "name": "simple-color-class",
+  "version": "0.0.0",
+  "description": "Provides a `Color` class",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucaCiucci/simple-color-class.git"
+  },
+  "keywords": [
+    "color",
+    "class",
+    "html",
+    "typescript"
+  ],
+  "author": {
+    "name": "Luca Ciucci"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucaCiucci/simple-color-class/issues"
+  },
+  "homepage": "https://github.com/LucaCiucci/simple-color-class#readme",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "./bin/*",
+    "./lib/*"
+  ],
+  "typings": "./lib/index.d.ts"
+}
